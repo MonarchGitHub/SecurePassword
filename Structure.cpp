@@ -24,7 +24,7 @@ int initial()
     cout<<singledigit<<endl;
 
 
-//random number in a range
+//random number in a given range
     int usinglealpha = (rand() %
            (26 - 1 + 1)) + 1;
 
@@ -39,6 +39,8 @@ int initial()
     // cout << hash;
     return 0;
 }
+
+
 
 int main()
 {
